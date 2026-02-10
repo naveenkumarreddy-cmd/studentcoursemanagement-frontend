@@ -1,0 +1,111 @@
+.add-course-form,
+.edit-course-form,
+.create-admin-form,
+.create-instructor-form {
+  max-width: 500px;
+}
+
+.add-course-input,
+.edit-course-input,
+.create-admin-input,
+.create-instructor-input,
+.add-course-textarea,
+.edit-course-textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.add-course-submit-btn,
+.edit-course-submit-btn,
+.create-admin-submit-btn,
+.create-instructor-submit-btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.add-course-error,
+.edit-course-error,
+.create-admin-error,
+.create-instructor-error {
+  margin-bottom: 10px;
+}
+
+.add-course-success,
+.create-admin-success,
+.create-instructor-success {
+  margin-bottom: 10px;
+  color: green;
+}
+
+.add-course-title {
+  color: #111827; /* dark readable */
+  font-weight: 700;
+}
+
+.add-course-label {
+  color: #374151;
+  font-weight: 600;
+}
+
+
+/* ===== FORCE TEXT VISIBILITY ===== */
+
+.add-course-title,
+.edit-course-title {
+  font-size: 24px;
+  font-weight: 800;          /* 🔥 bold */
+  color: #000000;            /* 🔥 pure black */
+}
+
+.add-course-label,
+.edit-course-label {
+  font-size: 15px;
+  font-weight: 700;          /* bold labels */
+  color: #000000;
+}
+
+.add-course-error,
+.edit-course-error {
+  font-weight: 700;
+}
+
+.add-course-success,
+.edit-course-success {
+  font-weight: 700;
+}
+
+/* ===== FORM WRAPPER (NO BACKGROUND IMAGE) ===== */
+.form-wrapper {
+  max-width: 520px;          /* 🔥 reduced width */
+  margin: 120px auto;       /* center vertically & horizontally */
+  padding: 30px;
+
+  background: white;        /* ✅ solid box */
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* ===============================
+   CENTERED FORM (ADMIN / INSTRUCTOR)
+================================ */
+
+.form-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form-wrapper {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+

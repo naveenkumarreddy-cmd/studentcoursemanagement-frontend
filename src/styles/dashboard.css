@@ -1,0 +1,102 @@
+/* ===== PAGE LAYOUT ===== */
+
+
+.dashboard-page {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;          /* 🔥 important */
+  padding: 0;         /* 🔥 important */
+
+  background-image: url("https://static.vecteezy.com/system/resources/previews/026/398/761/non_2x/the-concept-of-education-adds-new-skills-business-education-professional-courses-young-businessman-taking-notes-and-information-from-learning-new-things-in-professional-seminar-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* ===== NAVBAR ===== */
+.page-navbar {
+  height: 70px;
+  width: 100%;
+  padding: 16px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #00db8e, #0083b0);
+  color: black;
+}
+
+
+.page-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Dashboard-only right side */
+.dashboard-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logout-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* ===== CONTENT ===== */
+
+.page-content {
+  width: 100%;
+  margin: 0;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* ===== DASHBOARD BUTTONS ===== */
+.dashboard-actions {
+  max-width: 400px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dashboard-actions button {
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* ===== TABLES ===== */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.data-table th {
+  background: #2563eb;
+  color: white;
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}

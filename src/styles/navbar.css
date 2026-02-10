@@ -1,0 +1,35 @@
+.navbar {
+  height: 70px;
+  padding: 0 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: linear-gradient(90deg, #00b4db, #0083b0);
+  color: black;
+}
+
+.navbar-left {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-user {
+  font-size: 14px;
+}
+
+.navbar-logout {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.student-page {
+  min-height: 100vh;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/026/398/761/non_2x/the-concept-of-education-adds-new-skills-business-education-professional-courses-young-businessman-taking-notes-and-information-from-learning-new-things-in-professional-seminar-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.table-wrapper {
+  width: 100%;
+  padding: 30px;
+}
+
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.data-table th {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+}
+
+.data-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-primary {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+}
+
+.btn-disabled {
+  background: #9ca3af;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+}

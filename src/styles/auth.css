@@ -1,0 +1,235 @@
+/* ===============================
+   LOGIN PAGE FULL SCREEN
+================================ */
+
+.login-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0 !important;      /* 🔥 FORCE REMOVE */
+  padding: 0 !important;     /* 🔥 FORCE REMOVE */
+
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/024/110/454/small_2x/concept-ai-machine-learning-artificial-intelligence-robot-learning-network-system-advance-ai-on-blue-futuristic-modern-hi-tech-background-vector.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+/* ===============================
+   LOGIN CARD
+================================ */
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+
+  padding: 30px;
+  border-radius: 18px;
+
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35);
+}
+
+/* ===============================
+   HEADING
+================================ */
+
+.login-project-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.login-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 22px;
+}
+
+/* ===============================
+   INPUTS
+================================ */
+
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+
+.login-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.login-button {
+  flex: 1;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+}
+
+.register-button {
+  flex: 1;
+  padding: 12px;
+  background: #e5e7eb;
+  color: #111;
+  border-radius: 8px;
+}
+
+/* ===============================
+   ERROR
+================================ */
+
+.login-error {
+  margin-top: 14px;
+  text-align: center;
+  color: red;
+}
+
+/* ===============================
+   MOBILE
+================================ */
+
+@media (max-width: 480px) {
+  .login-card {
+    max-width: 92%;
+  }
+
+  .login-actions {
+    flex-direction: column;
+  }
+}
+
+/* ===============================
+   REGISTER PAGE (FULL SCREEN)
+================================ */
+
+.register-page {
+  position: fixed;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("https://wallpapercave.com/wp/wp11346435.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+/* ===============================
+   REGISTER CARD
+================================ */
+
+.register-card {
+  width: 100%;
+  max-width: 420px;
+
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+
+  padding: 30px;
+  border-radius: 18px;
+
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35);
+}
+
+/* ===============================
+   HEADING
+================================ */
+
+.register-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.register-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 22px;
+}
+
+/* ===============================
+   INPUTS
+================================ */
+
+.register-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+/* ===============================
+   BUTTON
+================================ */
+
+.register-submit-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+}
+
+/* ===============================
+   ERROR
+================================ */
+
+.register-error {
+  margin-top: 14px;
+  text-align: center;
+  color: red;
+}
+
+/* ===============================
+   MOBILE
+================================ */
+
+@media (max-width: 480px) {
+  .register-card {
+    max-width: 92%;
+    padding: 24px;
+  }
+}
+

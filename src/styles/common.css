@@ -1,0 +1,94 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+/* ===== GLOBAL PAGE ===== */
+.page {
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+/* ===== BUTTONS ===== */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+/* ===== ADD / EDIT COURSE BACKGROUND ===== */
+.add-course-page,
+.edit-course-page {
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("https://tse4.mm.bing.net/th/id/OIP.60P2QYCZSLKXoI0SxVbH_AHaEK?pid=Api&P=0&h=180");
+  background-size: cover;
+  background-position: center;
+}
+
+/* ===== FORM BOX ===== */
+.form-wrapper {
+  width: 420px;
+  background: white;
+  padding: 26px;
+  border-radius: 14px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+}
+
+/* ===== FORM ELEMENTS ===== */
+.form-wrapper h2 {
+  margin-bottom: 18px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.form-wrapper label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.form-wrapper textarea {
+  resize: none;
+}
+
+.form-wrapper button {
+  width: 100%;
+  margin-top: 8px;
+}

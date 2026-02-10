@@ -1,0 +1,47 @@
+table {
+  background: white;
+  border-collapse: collapse;
+}
+
+thead tr {
+  background: #2563eb; /* blue header */
+  color: white;
+}
+
+tbody tr {
+  background: white;     /* 🔥 THIS FIXES BLACK ROW */
+}
+
+tbody tr:nth-child(even) {
+  background: #f9fafb;   /* light alternate row */
+}
+
+td, th {
+  padding: 12px;
+  color: #111827;        /* dark readable text */
+}
+
+
+.admin-courses-delete-btn,
+.admin-students-delete-btn,
+.admin-instructors-delete-btn {
+  background: #dc2626;
+}
+
+.admin-courses-delete-btn:hover,
+.admin-students-delete-btn:hover,
+.admin-instructors-delete-btn:hover {
+  background: #991b1b;
+}
+
+.courses-btn-enroll {
+  background: #16a34a;
+}
+
+.courses-btn-enroll:hover {
+  background: #15803d;
+}
+
+.courses-btn-disabled {
+  background: #9ca3af;
+}
